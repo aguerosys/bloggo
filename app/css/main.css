@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    
+    background-color: rgba(211, 211, 211, 0.8);
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-image: url("../inc/img/presentation.jpg");
+}
+.presentation-tp{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(100, 40, 84, 0.658);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.presentation__title{
+    color:rgb(255, 239, 239);
+}
+
+.presentation__subtitle{
+    font-size: 15px;
+    margin-top: 10px;
+    color:rgb(211, 211, 211);
+}
+
+.post-title{
+    color: rgb(172, 74, 146);
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.post-subtitle{
+    color: rgb(119, 119, 119);
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.card__post{
+    margin: 10px;
+    margin-left: 20px;
+    margin-top:25px;
+    width: 90%;
+    background-color: rgb(238, 248, 255);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+
+}
+
+.card__post-img{
+    width: 200px;
+    height: 200px;
+
+    background-color: rgb(64, 64, 73);
+}
+
+.card__post-image{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+.card__post-content{
+    width: 80%;
+    margin: 10px;
+}
+
+.card__post-title{
+    font-size: 23px;
+}
+
+.card__post-description{
+    font-size: 18px;
+}
+
+.card__post-date{
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+}

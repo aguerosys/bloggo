@@ -1,0 +1,28 @@
+.login__container{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px;
+}
+
+.login__container-title{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.input{
+    width: 450px;
+    height: 45px;
+    
+}
+
+.submit{
+    color: white;
+    margin-top:35px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(41, 194, 41);
+    border: none;
+}
